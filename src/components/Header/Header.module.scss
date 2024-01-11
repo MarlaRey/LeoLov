@@ -4,34 +4,40 @@
 .headerWrapper {
     background-image: url('../../assets/img/header2.jpg');
     background-size: cover;
-    background-position: 0 -85rem;
+    background-position: 0 85%;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 80vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end center;
     flex-direction: column; /* Sørger for, at børnene er stakket i kolonnen */
+   
     .headers{
         display: flex;
         flex-direction: column;
         align-self: flex-end;
-        margin-right: 10rem;
-        margin-bottom: 4rem;
+        margin-right: 4rem;
+        margin-top: 12rem;
         color: $white;
-      
     }
+
     h1 {
         margin: 0;
         font-size: 13vh;
         font-weight: 100;
-        span{
+        span {
             color: $secondaryBlue;
         }
-      }
-      p {
+    }
+
+    p {
         font-size: 1.5rem;
         font-weight: 100;
-      }
-  }
-  
+    }
+}
 
-  
+@media screen and (max-width: 770px) {
+    .headers {
+        margin-right: 0;
+        background-color: aqua;
+    }
+}

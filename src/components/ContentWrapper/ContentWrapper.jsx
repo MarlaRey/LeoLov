@@ -2,10 +2,10 @@
 
 
 
-export const ContentWrapper = ({title, children}) => {
+export const ContentWrapper = ({children}) => {
     return (
            <>
-            <h1>{title}</h1>
+          
             <>{children}</>
            </>
     )

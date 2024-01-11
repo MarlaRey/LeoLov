@@ -1,0 +1,32 @@
+@import '../../App.scss';
+footer{
+    background-color: $primaryBlue;
+    padding: 4rem 8rem;
+    
+}
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    color: $white;
+   
+      
+    div{
+    
+        border-radius: 8px;
+        padding: 1rem;
+        h2{
+            margin-bottom: 2rem;
+            font-size: 2rem;
+            font-family: 'Jura', sans-serif;
+   font-weight: 300;
+            
+        }
+        .img{
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+    }
+    
+}

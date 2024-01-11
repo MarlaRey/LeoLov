@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-        <Navigation />
+    <Navigation />
     <Header/>
     <Main>
   <Routes>

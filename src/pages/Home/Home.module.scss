@@ -1,0 +1,48 @@
+@import '../../App.scss';
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    div{
+        background-color: $white;
+        border-radius: 8px;
+        border: lightgrey solid 2px;
+        padding: 1rem;
+        h2{
+            text-align: center;
+            color: $secondaryBlue;
+            margin-bottom: 5rem;
+        }
+        p{
+            margin: 3vw;
+        }
+    }
+    
+}
+
+.intetproblem{
+    margin-top: 4rem;
+    background-color: $primaryBlue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    border: solid 0.5rem $primaryBlue;
+    div{
+        background-color: $white;
+        padding: 2rem;
+        h2{
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            text-align: center;
+            color: $secondaryBlue;
+            margin-bottom: 5rem;
+        }
+        p{
+            margin: 3vw;
+        }
+    }
+    img{
+        width: 100%;
+    }
+    
+}
