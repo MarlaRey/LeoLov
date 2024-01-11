@@ -30,3 +30,7 @@ footer{
     }
     
 }
+@media screen and (max-width: 1000px) {
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }}

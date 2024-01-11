@@ -1,5 +1,6 @@
 @import '../../App.scss';
 .articles{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
@@ -17,8 +18,13 @@
             margin: 3vw;
         }
     }
+
     
 }
+@media screen and (max-width: 1000px) {
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }}
 
 .intetproblem{
     margin-top: 4rem;
@@ -46,3 +52,7 @@
     }
     
 }
+@media screen and (max-width: 1000px) {
+    .intetproblem {
+        grid-template-columns: 1fr;
+    }}
