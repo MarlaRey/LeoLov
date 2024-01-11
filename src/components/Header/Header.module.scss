@@ -1,0 +1,37 @@
+@import '../../App.scss';
+
+// Header.module.scss
+.headerWrapper {
+    background-image: url('../../assets/img/header2.jpg');
+    background-size: cover;
+    background-position: 0 -85rem;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* Sørger for, at børnene er stakket i kolonnen */
+    .headers{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        margin-right: 10rem;
+        margin-bottom: 4rem;
+        color: $white;
+      
+    }
+    h1 {
+        margin: 0;
+        font-size: 13vh;
+        font-weight: 100;
+        span{
+            color: $secondaryBlue;
+        }
+      }
+      p {
+        font-size: 1.5rem;
+        font-weight: 100;
+      }
+  }
+  
+
+  

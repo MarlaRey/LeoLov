@@ -1,0 +1,51 @@
+@import '../../App.scss';
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between; /* Placerer elementer i hver sin ende af flex-containeren */
+  align-items: center; /* Centrerer elementerne vertikalt */
+  background-color: $white;
+  border-bottom: solid 5px $secondaryBlue;
+  padding: 1rem;
+  font-family: 'Inter', sans-serif;
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none; /* Fjern prikker */
+
+    li {
+      margin-right: 15px; /* Juster margen mellem menu punkter efter behov */
+
+      &:last-child {
+        margin-right: 0; /* Fjern margen fra det sidste element */
+      }
+
+      .NavLink {
+        color: $secondaryBlue;
+        text-decoration: none; /* Fjern understregning */
+        font-weight: 400;
+        font-size: 1rem; /* Juster skriftstørrelsen efter behov */
+
+        &:hover {
+          text-decoration: underline; /* Vis understregning ved hover */
+        }
+      }
+
+      &:not(:last-child)::after {
+        content: '|'; /* Indsæt lodret streg mellem elementerne */
+        margin-left: 8px; /* Juster afstanden mellem streg og næste element */
+        color: $secondaryBlue;
+      }
+    }
+  }
+
+  .leoLovText {
+    font-size: 1.5rem; /* Skriftstørrelse 2rem */
+    color: $black;
+    margin-right: 2rem;
+    span{
+      color: $secondaryBlue
+    }
+  }
+}
