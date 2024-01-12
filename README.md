@@ -1,8 +1,9 @@
-# React + Vite
+# Det gik godt:
+Jeg føler jeg begynder at være nogenlunde hjemme i hvordan React er skruet sammen
+JEg trives godt med sådan et projekt her med et klart mål og et designudkast
+Jeg synes det er sjovt at få det i spil vi har lært
+Jeg trives rigtig godt med at selv kune styre hvornår jeg arbejder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Det gik ikke så godt:
+jeg kan hurtigt lige komme til at bruge adskillige timer på ubetydelige detaljer. Der skal jeg lære at sætte mig for at vende tilbage til detaljen, hvis der er tid til at fedte med den.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
