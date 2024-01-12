@@ -7,3 +7,5 @@ Jeg trives rigtig godt med at selv kune styre hvornår jeg arbejder
 # Det gik ikke så godt:
 jeg kan hurtigt lige komme til at bruge adskillige timer på ubetydelige detaljer. Der skal jeg lære at sætte mig for at vende tilbage til detaljen, hvis der er tid til at fedte med den.
 
+# Hvad har jeg lært:
+En helt masse om hvordan det hele spiller sammen på kryds og tværs.
