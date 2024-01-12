@@ -1,7 +1,7 @@
 @import '../../App.scss';
 footer{
     background-color: $primaryBlue;
-    padding: 4rem 8rem;
+    padding: 4rem 6rem;
     
 }
 .articles{
@@ -11,16 +11,13 @@ footer{
     color: $white;
    
       
-    div{
-    
-        border-radius: 8px;
-        padding: 1rem;
+    div{   
+     padding: 1rem;
         h2{
             margin-bottom: 2rem;
             font-size: 2rem;
             font-family: 'Jura', sans-serif;
-   font-weight: 300;
-            
+            font-weight: 300;
         }
         .img{
             padding: 0;
