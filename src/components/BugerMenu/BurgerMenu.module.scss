@@ -1,0 +1,57 @@
+@import '../../App.scss';
+.burgerMenu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+  
+    .burgerIcon {
+      cursor: pointer;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .bar {
+      background-color: $secondaryBlue;
+      z-index: 100;
+      height: 3px;
+      width: 25px;
+      margin: 5px 0;
+      transition: 0.3s;
+    }
+  
+    .barOpen {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .menu {
+      position: absolute;
+      top: 60px; /* Juster top-positionen baseret på dit design */
+      right: 10px; /* Juster højre position baseret på dit design */
+      background-color: #fff; /* Juster baggrundsfarven baseret på dit design */
+      padding: 10px;
+      border: 1px solid #333; /* Juster kantlinjen baseret på dit design */
+      border-radius: 5px; /* Juster kantlinjens radius baseret på dit design */
+  
+      .menuLink {
+        display: block;
+        padding: 8px;
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #333; /* Juster farven baseret på dit design */
+        font-size: 16px; /* Juster skriftstørrelsen baseret på dit design */
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #555; /* Juster hover-farven baseret på dit design */
+        }
+      }
+    }
+  
+    &.visible {
+      display: block;
+    }
+  }
+  
