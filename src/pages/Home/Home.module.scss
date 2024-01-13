@@ -1,58 +1,63 @@
 @import '../../App.scss';
-.articles{
+
+.articles {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
-    div{
+    div {
         background-color: $white;
         border-radius: 8px;
         border: lightgrey solid 2px;
         padding: 1rem;
-        h2{
+        h2 {
             text-align: center;
             color: $secondaryBlue;
             margin-bottom: 5rem;
         }
-        p{
+        p {
             margin: 3vw;
         }
     }
-
-    
 }
+
 @media screen and (max-width: 1000px) {
     .articles {
         grid-template-columns: 1fr 1fr;
-    }}
+    }
+}
 
-.intetproblem{
+.intetproblem {
     margin-top: 4rem;
     background-color: $primaryBlue;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     border: solid 0.5rem $primaryBlue;
-    div{
+
+    div {
         background-color: $white;
         padding: 2rem;
-        h2{
+        h2 {
             font-family: 'Inter', sans-serif;
             font-weight: 400;
             text-align: center;
             color: $secondaryBlue;
             margin-bottom: 5rem;
         }
-        p{
+        p {
             margin: 3vw;
         }
     }
-    img{
+    img {
         width: 100%;
+        object-fit: cover;
+        height: 50vh;
     }
-    
 }
+
 @media screen and (max-width: 1000px) {
     .intetproblem {
         grid-template-columns: 1fr;
-    }}
+    }
+}

@@ -1,4 +1,5 @@
 @import '../../App.scss';
+
 .burgerMenu {
     display: none;
     position: fixed;
@@ -28,11 +29,13 @@
   
     .menu {
       position: absolute;
-      top: 60px; /* Juster top-positionen baseret på dit design */
-      right: 10px; /* Juster højre position baseret på dit design */
-      background-color: #fff; /* Juster baggrundsfarven baseret på dit design */
+      top: 2rem; /* Juster top-positionen baseret på dit design */
+      right: 4rem; /* Juster højre position baseret på dit design */
+      
+      text-align: center;
+      background-color: #ffffff; /* Juster baggrundsfarven baseret på dit design */
       padding: 10px;
-      border: 1px solid #333; /* Juster kantlinjen baseret på dit design */
+      border: 1px solid lightgrey; /* Juster kantlinjen baseret på dit design */
       border-radius: 5px; /* Juster kantlinjens radius baseret på dit design */
   
       .menuLink {
@@ -45,7 +48,8 @@
         transition: color 0.3s;
   
         &:hover {
-          color: #555; /* Juster hover-farven baseret på dit design */
+          color: $secondaryBlue; 
+          text-decoration: underline;/* Juster hover-farven baseret på dit design */
         }
       }
     }

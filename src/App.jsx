@@ -7,7 +7,7 @@ import { About } from './pages/About/About'
 import { Advokaterne } from './pages/Advokaterne/Advokaterne'
 import { Route, Routes } from 'react-router-dom'
 import { Navigation } from './components/Navigation/Navigation';
-import {NotFound} from './components/NotFound/NotFound'
+import { NotFound } from './components/NotFound/NotFound'
 
 
 
@@ -16,18 +16,17 @@ function App() {
 
   return (
     <>
-    <Navigation />
-    <Header/>
-    <Main>
-  <Routes>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/advokaterne" element={<Advokaterne />} />
-        <Route path="*" element={<NotFound />} />
-    
-  </Routes>
-    </Main>
-    <Footer/>
+      <Navigation />
+      <Header />
+      <Main>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/advokaterne" element={<Advokaterne />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Main>
+      <Footer />
     </>
   )
 }

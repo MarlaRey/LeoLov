@@ -1,16 +1,13 @@
 @import '../../App.scss';
 footer{
     background-color: $primaryBlue;
-    padding: 4rem 6rem;
-    
+    padding: 4rem 6rem; 
 }
 .articles{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     color: $white;
-   
-      
     div{   
      padding: 1rem;
         h2{
@@ -24,8 +21,7 @@ footer{
             display: flex;
             gap: 1rem;
         }
-    }
-    
+    }   
 }
 @media screen and (max-width: 1000px) {
     .articles {

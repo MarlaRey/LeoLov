@@ -2,8 +2,8 @@
 
 .navWrapper {
   display: flex;
-  justify-content: space-between; /* Placerer elementer i hver sin ende af flex-containeren */
-  align-items: center; /* Centrerer elementerne vertikalt */
+  justify-content: space-between;
+  align-items: center; 
   background-color: $white;
   border-bottom: solid 5px $secondaryBlue;
   padding: 1rem;
@@ -12,36 +12,36 @@
   ul {
     display: flex;
     justify-content: flex-start;
-    list-style-type: none; /* Fjern prikker */
+    list-style-type: none; 
 
     li {
-      margin-right: 15px; /* Juster margen mellem menu punkter efter behov */
+      margin-right: 15px; 
 
       &:last-child {
-        margin-right: 0; /* Fjern margen fra det sidste element */
+        margin-right: 0; 
       }
 
       .NavLink {
         color: $secondaryBlue;
-        text-decoration: none; /* Fjern understregning */
+        text-decoration: none; 
         font-weight: 400;
-        font-size: 1rem; /* Juster skriftstørrelsen efter behov */
+        font-size: 1rem;
 
         &:hover {
-          text-decoration: underline; /* Vis understregning ved hover */
+          text-decoration: underline; 
         }
       }
 
       &:not(:last-child)::after {
-        content: '|'; /* Indsæt lodret streg mellem elementerne */
-        margin-left: 8px; /* Juster afstanden mellem streg og næste element */
+        content: '|'; 
+        margin-left: 8px; 
         color: $secondaryBlue;
       }
     }
   }
 
   .leoLovText {
-    font-size: 1.5rem; /* Skriftstørrelse 2rem */
+    font-size: 1.5rem;
     color: $black;
     margin-right: 2rem;
     span{

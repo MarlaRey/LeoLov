@@ -10,7 +10,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    
     div{
         background-color: $white;
         padding: 2rem;
@@ -26,8 +25,7 @@
         }
     }
     img{
-        width: 100%;
-        
+        width: 100%; 
     }
     .karin{
         height: 600px;

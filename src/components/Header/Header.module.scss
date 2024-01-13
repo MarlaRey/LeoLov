@@ -8,17 +8,13 @@
     background-repeat: no-repeat;
     height: 80vh;
     position: relative;
-   
-   
     .headers{
         position: absolute;
         top: 4rem;
         right: 4rem;
         // margin-top: 12rem;
         color: $white;
-        
     }
-
     h1 {
         margin: 0;
         font-size: 13vh;
@@ -27,7 +23,6 @@
             color: $secondaryBlue;
         }
     }
-
     p {
         font-size: 1.5rem;
         font-weight: 100;

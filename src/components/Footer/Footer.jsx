@@ -1,7 +1,6 @@
-import { TheCompany } from '../TheCompany/TheCompany'
 import styles from './Footer.module.scss'
-import facebook from '../../assets/img/icons/facebook.png'; // Opdater med den korrekte sti til dit billede
-import linkedin from '../../assets/img/icons/linkedIn.png'; // Opdater med den korrekte sti til dit billede
+import facebook from '../../assets/img/icons/facebook.png'; 
+import linkedin from '../../assets/img/icons/linkedIn.png'; 
 
 
 export const Footer = () => {
